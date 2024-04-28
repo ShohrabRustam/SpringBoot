@@ -11,6 +11,7 @@ public class Alian {
     private String aname;
     private String tech;
     @Autowired
+    @Qualifier("lap")
     private Laptop laptop;
 
     public Alian() {

@@ -2,7 +2,7 @@ package com.example.FirstProject;
 
 import org.springframework.stereotype.Component;
 
-@Component
+@Component("lap")
 public class Laptop {
     private  int lid;
     private  String brand;
