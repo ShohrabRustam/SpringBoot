@@ -9,6 +9,8 @@ public class Alian {
     private int aid;
     private String aname;
     private String tech;
+    @Autowired
+    private Laptop laptop;
 
     public Alian() {
         super();
@@ -39,7 +41,16 @@ public class Alian {
         this.tech = tech;
     }
 
+    public Laptop getLaptop() {
+        return laptop;
+    }
+
+    public void setLaptop(Laptop laptop) {
+        this.laptop = laptop;
+    }
+
     public void show(){
         System.out.println("Alien Method Called!! ");
+        laptop.compile();
     }
 }
