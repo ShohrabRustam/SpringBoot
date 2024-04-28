@@ -7,8 +7,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class FirstProjectApplication {
 
 	public static void main(String[] args) {
-		System.out.println("Welcome to Spring Boot Project !!!");
 		SpringApplication.run(FirstProjectApplication.class, args);
+		System.out.println("Welcome to Spring Boot Project !!!");
 	}
 
 }
