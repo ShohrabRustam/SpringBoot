@@ -8,6 +8,11 @@ public class Alian {
     private String aname;
     private String tech;
 
+    public Alian() {
+        super();
+        System.out.println("Alien Constructure Called!!!");
+    }
+
     public int getAid() {
         return aid;
     }
