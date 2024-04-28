@@ -2,7 +2,7 @@ package com.example.FirstProject;
 
 import org.springframework.stereotype.Component;
 
-//@Component
+@Component
 public class Alian {
     private int aid;
     private String aname;
