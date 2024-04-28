@@ -9,4 +9,6 @@ Spring Features:
   6. Data
   7. AOP etc.
      
-Spring boot gives us production-ready application
+Spring boot gives us a production-ready application
+it provides us with embedded servers
+  APP->OS->Hardware
