@@ -9,3 +9,4 @@ Spring Features:
   6. Data
   7. AOP etc.
      
+Spring boot gives us production-ready application
