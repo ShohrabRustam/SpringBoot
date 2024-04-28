@@ -29,5 +29,10 @@ class HitachiHD implements HardDrive{
 ......
 }
 
+@autowired
+class Laptop{
+   HardDrive obj ;
+}
+
 DI exists in two major variants: Constructor-based dependency injection and Setter-based dependency injection.
 
