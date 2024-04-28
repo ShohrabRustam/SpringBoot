@@ -1,5 +1,8 @@
 package com.example.FirstProject;
 
+import org.springframework.stereotype.Component;
+
+//@Component
 public class Alian {
     private int aid;
     private String aname;
@@ -27,5 +30,9 @@ public class Alian {
 
     public void setTech(String tech) {
         this.tech = tech;
+    }
+
+    public void show(){
+        System.out.println("Alien Method Called!! ");
     }
 }
