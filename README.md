@@ -12,3 +12,6 @@ Spring Features:
 Spring boot gives us a production-ready application
 it provides us with embedded servers
   APP->OS->Hardware
+
+spring-boot-started-web
+spring-boot-started-jdbc
